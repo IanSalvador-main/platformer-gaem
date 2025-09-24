@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dspsmet71gdlo" path="res://icon.svg" id="1_ig7tw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
-size = Vector2(126, 57)
+size = Vector2(60, 55.5)
 
 [sub_resource type="TileSet" id="TileSet_h2yge"]
 
@@ -12,12 +12,12 @@ size = Vector2(126, 57)
 [node name="player" type="CharacterBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="player"]
-position = Vector2(263, 134)
-scale = Vector2(0.984375, 0.4375)
+position = Vector2(44, 39)
+scale = Vector2(0.46875, 0.4375)
 texture = ExtResource("1_ig7tw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
-position = Vector2(263, 133.5)
+position = Vector2(44, 39.25)
 shape = SubResource("RectangleShape2D_0xm2m")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
